@@ -1,0 +1,36 @@
+#fixed {
+    position: fixed;
+    padding: 40px;
+    color: #;
+    background: #d3d3d3;
+}
+.wrapper {
+    width: 300px;
+    padding: 120px 0px 0px 0px;
+    margin: 20px 200px 0px 200px;
+}
+
+#content {
+    width: 800px;
+    padding 20px;
+    margin: 0px 50px 40px 50px;
+}
+
+#relative {
+    position: relative;
+    padding: 20px 10px 20px 10px;
+    max-width: 100%;
+
+    color: #;
+    background: #d3d3d3;
+}
+
+#absolute {
+    position: relative;
+    padding: 40px;
+    color: #;
+    background: #d3d3d3;
+}
+
+
+
