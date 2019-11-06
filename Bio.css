@@ -1,0 +1,87 @@
+box-sizing: border-box;
+text-align: center;
+
+
+
+Body {
+    background-color: rgb(235, 222, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    line-height: 150%;
+
+}
+
+
+
+header
+ { 
+    z-index: 100;
+    width: 100%;
+    padding: 10px 0px 10px 0px;  
+    margin-bottom: 20px;
+    color: #333;
+    background: ;
+      }
+
+section {
+  width: 800px;  
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #;
+}
+
+
+#port {
+  float: left;
+  width: 33.3%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #30948D;
+}
+
+#contact {
+  float: left;
+  width: 33.3%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #9e1212;
+}
+
+#about {
+  float: left;
+  width: 33.3%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #34543a;
+}      
+
+.wrapper {
+    width: 300px;
+    padding: 120px 0px 0px 0px;
+    margin: 20px 200px 0px 200px;
+
+.main-bodyofbio
+ {
+    width: 100%;
+    padding: 120px 0px 0px 0px;
+    margin: 20px 200px 0px 200px;
+ }
+
+footer {
+    footer {
+        z-index: 1000;
+        float: middle;
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+        color: #333;
+        background: #FFA500;
+      }
+
+}
+
+
