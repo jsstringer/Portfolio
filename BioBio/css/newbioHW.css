@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  text-align: left;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #4aaaa5;
+}
+
+section {
+  
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+header {
+  border: #bbbaba;
+  float: left;
+  width: 100%;
+  background: #ffffff;
+}
+
+#name {
+  float: left;
+  width: 20%;
+  padding: 20px 0px 20px 0px;
+  color: #ffffff;
+  background: #4aaaa5;
+}
+
+#blank{
+  float: left;
+  width: 50%;
+  padding: 20px 0px 20px 0px;
+  background: #ffffff;
+}
+
+#about-tab {
+  float: left;
+  width: 10%;
+  padding: 20px 0px 20px 0px;
+  background: #ffffff;
+}
+
+#portfolio-tab {
+  float: left;
+  width: 10%;
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 0px;
+  background: #ffffff;
+}
+
+#contact-tab {
+  float: left;
+  width: 10%;
+  padding: 20px 0px 0px 0px;
+  background: #ffffff;
+}
+
+#full {
+  padding: 50px 0px 50px 0px;
+  border-top: 2px solid #dddddd;
+  float: left;
+  width: 100%;
+  background: #cccccc;
+}
+
+#content-box {
+  padding: 30px 50px 30px 50px;
+  width: 960px;
+  height: 500%;
+  margin-left : 450px;
+  background: #ffffff;
+}
+
+aside {
+  padding: 100px 20px 5px 450px;
+  float: left;
+  margin: 30px 30px 30px 30px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 30px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  position: absolute; 
+  left: 0; right: 0; bottom: 0; 
+  color: #ffffff;
+  background: #666666;
+  padding: 20px ;
+}
