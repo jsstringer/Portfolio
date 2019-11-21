@@ -1,0 +1,34 @@
+// Variables
+
+var name; // Declare variable
+name = "Jack"; // Assigning value
+
+var name = "Jack"; // Declare & Assining together
+
+// Functions
+
+function sayHello() {
+    console.log("Hello " + name + age);
+}
+
+function funcName() {
+    // Do logic 
+}
+
+// Object - Everything is an object
+
+var name = "Jack";          // String
+var age = 26;               // Number
+var isMarried = false;      // Boolean
+var students = [            // Array
+  "Jin", 
+  "Jesse",
+  "James"
+];
+var car = {                 // JSON Object
+  model: "Tesla",
+  wheels: 4
+};
+var sayHello = function(name) {// Method Object
+  console.log("Hello " + name);
+};
